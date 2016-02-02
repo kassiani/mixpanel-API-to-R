@@ -1,4 +1,4 @@
-mixpanel <- function (key, secret, event = "Register", unit = "day", interval = 7, type = "unique") {
+mixpanel <- function (key="API", secret="secret_API", event = "Register", unit = "day", interval = 7, type = "unique") {
   library(RCurl)
   library(rjson)
   library(digest)
